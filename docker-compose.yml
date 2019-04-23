@@ -6,5 +6,4 @@ services:
     build:
       context: ./Grand.Web
       dockerfile: Dockerfile
-     ports:
-     - "80:80"
+    ports: "80:80"
