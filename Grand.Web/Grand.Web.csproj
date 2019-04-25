@@ -49,6 +49,9 @@
     <None Remove="Plugins\**" />
   </ItemGroup>  
   <ItemGroup>
+    <Content Update="App_Data\GeoLite2-Country.mmdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="App_Data\InstalledPlugins.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

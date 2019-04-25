@@ -13,3 +13,4 @@ Tax.FixedRate
 Tax.CountryStateZip
 Widgets.Slider
 Widgets.GoogleAnalytics
+
