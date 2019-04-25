@@ -48,5 +48,13 @@
     <EmbeddedResource Remove="Plugins\**" />
     <None Remove="Plugins\**" />
   </ItemGroup>  
+  <ItemGroup>
+    <Content Update="App_Data\InstalledPlugins.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="App_Data\Settings.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>  
  
 </Project>
