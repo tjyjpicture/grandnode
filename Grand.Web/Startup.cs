@@ -41,6 +41,7 @@ namespace Grand.Web
         /// <param name="services">Collection of service descriptors</param>
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+
             return services.ConfigureApplicationServices(Configuration);
         }
 
